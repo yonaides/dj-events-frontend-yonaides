@@ -43,7 +43,7 @@ export default function Header() {
                   onClick={() => logout()}
                   className='btn-secondary btn-icon'
                 >
-                  <FaSignOutAlt /> {user.Username} - Logout
+                <FaSignOutAlt />  {user.username }  - Logout
                 </button>
               </li>
             </>
